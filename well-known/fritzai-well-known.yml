@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of /.well-known/* and discovery endpoints on fritz.ai
+host: https://fritz.ai
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: WordPress/Yoast robots.txt, allow-all, sitemap at /sitemap_index.xml

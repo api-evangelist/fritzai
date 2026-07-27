@@ -1,7 +1,27 @@
 aid: fritzai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fritzai.png
 name: Fritz.ai
-description: Fritz.ai is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Fritz.ai was a Boston-based mobile, on-device machine learning platform,
+  backed by Uncork Capital, that gave iOS and Android developers SDKs plus a
+  hosted service for training, deploying, and managing ML models directly on
+  devices. That original developer platform has since wound down, and the
+  fritz.ai domain now hosts an unrelated AI-tools review and ranking content
+  site (guides, glossary, interviews, and tool comparisons) with no public API,
+  SDK, or developer program. This API Evangelist profile was surfaced from the
+  Uncork Capital portfolio graph and is retained as a historical company record;
+  no live API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/fritzai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,40 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-developer-platform
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Machine Learning
+- Artificial Intelligence
+- Mobile
+- On-Device ML
+- Developer Tools
+- SDKs
+- Defunct
 apis: []
+common:
+- type: Website
+  url: https://fritz.ai/
+- type: Blog
+  url: https://fritz.ai/blog
+- type: About
+  url: https://fritz.ai/about
+- type: Support
+  url: https://fritz.ai/contact
+- type: DomainSecurity
+  url: security/fritzai-domain-security.yml
+- type: WellKnown
+  url: well-known/fritzai-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
