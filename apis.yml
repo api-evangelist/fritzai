@@ -23,16 +23,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fritzai.png
 name: Fritz.ai
-description: >-
-  Fritz.ai was a Boston-based mobile, on-device machine learning platform,
-  backed by Uncork Capital, that gave iOS and Android developers SDKs plus a
-  hosted service for training, deploying, and managing ML models directly on
-  devices. That original developer platform has since wound down, and the
-  fritz.ai domain now hosts an unrelated AI-tools review and ranking content
-  site (guides, glossary, interviews, and tool comparisons) with no public API,
-  SDK, or developer program. This API Evangelist profile was surfaced from the
-  Uncork Capital portfolio graph and is retained as a historical company record;
-  no live API surface was found during enrichment.
+description: Fritz.ai was a Boston-based mobile, on-device machine learning platform, backed by Uncork
+  Capital, that gave iOS and Android developers SDKs plus a hosted service for training, deploying, and
+  managing ML models directly on devices. That original developer platform has since wound down, and the
+  fritz.ai domain now hosts an unrelated AI-tools review and ranking content site (guides, glossary, interviews,
+  and tool comparisons) with no public API, SDK, or developer program. This API Evangelist profile was
+  surfaced from the Uncork Capital portfolio graph and is retained as a historical company record; no
+  live API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/fritzai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -40,10 +37,10 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: defunct-developer-platform
+x-status: defunct
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Machine-Learning
