@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-09-15'
 tags:
 - Company
-- Machine-Learning
+- Machine Learning
 - Artificial Intelligence
 - Mobile
 - On-Device ML
@@ -59,6 +59,7 @@ tags_raw:
 - Developer Tools
 - SDKs
 - Defunct
+- Machine-Learning
 apis: []
 common:
 - type: Website
